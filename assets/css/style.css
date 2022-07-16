@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Neutra DBold;
+    src: url(../fonts/neutra/Neutra2Display-Bold.otf);
+}
+@font-face {
+    font-family: Neutra DLight;
+    src: url(../fonts/neutra/Neutra2Display-Light.otf);
+}
+@font-face {
+    font-family: Neutra DMedium;
+    src: url(../fonts/neutra/Neutra2Display-Medium.otf);
+}
+@font-face {
+    font-family: Neutra DThin;
+    src: url(../fonts/neutra/Neutra2Display-Thin.otf);
+}
+@font-face {
+    font-family: Neutra DTitling;
+    src: url(../fonts/neutra/Neutra2Display-Titling.otf);
+}
+@font-face {
+    font-family: Neutra TBold;
+    src: url(../fonts/neutra/Neutra2Text-Bold.otf);
+}
+@font-face {
+    font-family: Neutra TBoldItalic;
+    src: url(../fonts/neutra/Neutra2Text-BoldItalic.otf);
+}
+@font-face {
+    font-family: Neutra TBook;
+    src: url(../fonts/neutra/Neutra2Text-Book.otf);
+}
+@font-face {
+    font-family: Neutra TBookItalic;
+    src: url(../fonts/neutra/Neutra2Text-BookItalic.otf);
+}
+@font-face {
+    font-family: Neutra TDemi;
+    src: url(../fonts/neutra/Neutra2Text-Demi.otf);
+}
+@font-face {
+    font-family: Neutra TDemiItalic;
+    src: url(../fonts/neutra/Neutra2Text-DemiItalic.otf);
+}
+@font-face {
+    font-family: Neutra TLight;
+    src: url(../fonts/neutra/Neutra2Text-Light.otf);
+}
+@font-face {
+    font-family: Neutra TLightItalic;
+    src: url(../fonts/neutra/Neutra2Text-LightItalic.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Fira Sans Condensed', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* font-family: 'Archivo Narrow', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Overpass', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Hind Siliguri', sans-serif; */
+
+body {
+    padding-bottom: 0 !important;
+}
+.nav-item > a {
+    font-family: Neutra TBook !important;
+    font-size: 1.15em !important;
+}
+
+.nav-item > a:hover {
+    color: rgb(237, 187, 40) !important;
+}
+.nav-bot > a {
+    font-family: Neutra TBook !important;
+    font-size: 1.15em !important;
+}
+
+.nav-bot > a:hover {
+    color: rgb(39, 67, 148) !important;
+}
+
+footer h5{
+    font-family: Neutra TDemi;
+}
+footer p{
+    font-family: Neutra TBook;
+}
+
+
+.carousel-item::after {
+    content: '';
+    position: absolute;
+    left:0;
+    top: 0;
+    height:100%;
+    width: 100%;
+    background-color:black;
+    opacity: 0.4;
+    z-index: 1;
+
+}
+
+.text-body {
+    color: white !important;
+}
+
+.text-body:first-child { 
+    font-family: Neutra DTitling !important;
+}
+
+.text-body:last-child {
+    font-family:  'Hind Siliguri', sans-serif; 
+}
+
+#sobre-nos {
+    font-family: Neutra TBold;
+    font-size: 2em ;
+    text-transform: uppercase ;
+    color: black;
+}
+
+.cards {
+    background-color: rgb(237, 187, 40) !important;
+    color: black !important;
+}
+
+.cards > h2 {
+    font-family: Neutra DMedium;
+}
+
+.cards > p {
+    font-family: 'Hind Siliguri', sans-serif; 
+    text-align: justify;
+}
