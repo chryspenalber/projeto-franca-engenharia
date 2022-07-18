@@ -19,6 +19,7 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   max-height: 9rem;
+  font-size: 0.8rem;
   bottom: 2rem;
   z-index: 10;
 }
@@ -30,9 +31,22 @@ body {
 
 
 
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+
+@media (max-width: 450px) {
+  .carousel-caption {
+    bottom: 0.1rem;
+  }
+  .carousel-caption h1 {
+    font-size: 1.2rem;
+  }
+  .carousel-caption p {
+    font-size: 0.75rem;
+  }
+  
+}
+
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */

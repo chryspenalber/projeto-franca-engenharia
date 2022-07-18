@@ -135,7 +135,7 @@ body {
 
 .cards>p {
     font-family: 'Hind Siliguri', sans-serif;
-    text-align: justify;
+    text-align: left;
 }
 
 .btn-bot {
@@ -190,4 +190,17 @@ footer p {
 .my-float>img {
     margin: auto;
     transform: translate(0%,50%);
+}
+
+
+@media (max-width: 500px) {
+    #sobre-nos {
+        width: 15rem;
+    }
+  }
+
+@media (max-width:500px) {
+    #to-up-btn {
+        display: none;
+    }
 }
