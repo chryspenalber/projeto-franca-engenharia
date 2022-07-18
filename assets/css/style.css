@@ -2,50 +2,62 @@
     font-family: Neutra DBold;
     src: url(../fonts/neutra/Neutra2Display-Bold.otf);
 }
+
 @font-face {
     font-family: Neutra DLight;
     src: url(../fonts/neutra/Neutra2Display-Light.otf);
 }
+
 @font-face {
     font-family: Neutra DMedium;
     src: url(../fonts/neutra/Neutra2Display-Medium.otf);
 }
+
 @font-face {
     font-family: Neutra DThin;
     src: url(../fonts/neutra/Neutra2Display-Thin.otf);
 }
+
 @font-face {
     font-family: Neutra DTitling;
     src: url(../fonts/neutra/Neutra2Display-Titling.otf);
 }
+
 @font-face {
     font-family: Neutra TBold;
     src: url(../fonts/neutra/Neutra2Text-Bold.otf);
 }
+
 @font-face {
     font-family: Neutra TBoldItalic;
     src: url(../fonts/neutra/Neutra2Text-BoldItalic.otf);
 }
+
 @font-face {
     font-family: Neutra TBook;
     src: url(../fonts/neutra/Neutra2Text-Book.otf);
 }
+
 @font-face {
     font-family: Neutra TBookItalic;
     src: url(../fonts/neutra/Neutra2Text-BookItalic.otf);
 }
+
 @font-face {
     font-family: Neutra TDemi;
     src: url(../fonts/neutra/Neutra2Text-Demi.otf);
 }
+
 @font-face {
     font-family: Neutra TDemiItalic;
     src: url(../fonts/neutra/Neutra2Text-DemiItalic.otf);
 }
+
 @font-face {
     font-family: Neutra TLight;
     src: url(../fonts/neutra/Neutra2Text-Light.otf);
 }
+
 @font-face {
     font-family: Neutra TLightItalic;
     src: url(../fonts/neutra/Neutra2Text-LightItalic.otf);
@@ -70,39 +82,24 @@
 body {
     padding-bottom: 0 !important;
 }
-.nav-item > a {
+
+.nav-item>a {
     font-family: Neutra TBook !important;
     font-size: 1.15em !important;
 }
 
-.nav-item > a:hover {
+.nav-item>a:hover {
     color: rgb(237, 187, 40) !important;
 }
-.nav-bot > a {
-    font-family: Neutra TBook !important;
-    font-size: 1.15em !important;
-}
-
-.nav-bot > a:hover {
-    color: rgb(39, 67, 148) !important;
-}
-
-footer h5{
-    font-family: Neutra TDemi;
-}
-footer p{
-    font-family: Neutra TBook;
-}
-
 
 .carousel-item::after {
     content: '';
     position: absolute;
-    left:0;
+    left: 0;
     top: 0;
-    height:100%;
+    height: 100%;
     width: 100%;
-    background-color:black;
+    background-color: black;
     opacity: 0.4;
     z-index: 1;
 
@@ -112,18 +109,18 @@ footer p{
     color: white !important;
 }
 
-.text-body:first-child { 
+.text-body:first-child {
     font-family: Neutra DTitling !important;
 }
 
 .text-body:last-child {
-    font-family:  'Hind Siliguri', sans-serif; 
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 #sobre-nos {
     font-family: Neutra TBold;
-    font-size: 2em ;
-    text-transform: uppercase ;
+    font-size: 2em;
+    text-transform: uppercase;
     color: black;
 }
 
@@ -132,11 +129,65 @@ footer p{
     color: black !important;
 }
 
-.cards > h2 {
+.cards>h2 {
     font-family: Neutra DMedium;
 }
 
-.cards > p {
-    font-family: 'Hind Siliguri', sans-serif; 
+.cards>p {
+    font-family: 'Hind Siliguri', sans-serif;
     text-align: justify;
+}
+
+.btn-bot {
+    position: relative;
+}
+
+.btn-bot>a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bot>a {
+    font-family: Neutra TBook !important;
+    font-size: 1.15em !important;
+}
+
+.nav-bot>a:hover {
+    color: rgb(39, 67, 148) !important;
+}
+
+footer h5 {
+    font-family: Neutra TDemi;
+}
+
+footer p {
+    font-family: Neutra TBook;
+}
+
+.float {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 70px;
+    right: 25px;
+    background-color: rgb(39, 67, 148);
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(153, 153, 153, 0.692);
+    
+}
+
+.float:hover {
+    background-color: rgb(59, 80, 145);
+}
+
+.my-float {
+    margin-top: 22px;
+    position: relative;
+}
+
+.my-float>img {
+    margin: auto;
+    transform: translate(0%,50%);
 }
