@@ -130,20 +130,53 @@ body {
     font-size: 2em;
     text-transform: uppercase;
     color: black;
+    text-align: center !important;
 }
+
+.div-emp {
+    background-color: yellow;
+}
+#a-empresa {
+    font-family: Neutra TBold;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: black;
+}
+
+.text-empresa > p {
+    line-height: 30px;
+    text-align: justify !important;
+}
+
 
 .cards {
     background-color: rgb(237, 187, 40) !important;
     color: black !important;
 }
 
-.cards>h2 {
+.cards > h2 {
     font-family: Neutra DMedium;
 }
 
-.cards>p {
+.cards > p {
     font-family: 'Hind Siliguri', sans-serif;
     text-align: left;
+}
+
+.text-2 {
+    font-family: Neutra TBold;
+    background-color: rgb(39, 67, 148) !important;
+    color: white !important;
+}
+.text-3 {
+    font-family: Neutra TBold; 
+    color: black !important;
+}
+
+.text-3-p {
+    color: black(255, 0, 0) !important;
+}
+.img-t-3 {
 }
 
 .b-example-divider {
