@@ -176,6 +176,7 @@ body {
     color: black(255, 0, 0) !important;
 }
 
+
 .b-example-divider {
     height: 3rem;
     background-color: rgba(0, 0, 0, .1);
@@ -267,6 +268,13 @@ footer p {
     transform: translate(0%,50%);
 }
 
+
+@media (max-width: 750px) {
+    .text-3-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 @media (max-width: 500px) {
     #sobre-nos {
