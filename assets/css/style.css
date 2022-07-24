@@ -295,3 +295,21 @@ footer p {
         font-size: 3.5rem;
     }
 }
+
+/* SeP */
+
+.featurette-heading {
+    font-family: Neutra DTitling;
+    color: rgb(39, 67, 148);
+}
+
+.lead {
+    font-family: Overpass;
+}
+
+.ph-img-left {
+    border-radius: 10px 0px 0px 10px;
+}
+.ph-img-right {
+    border-radius: 0px 10px 10px 0px;
+}
