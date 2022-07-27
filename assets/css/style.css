@@ -296,15 +296,35 @@ footer p {
     }
 }
 
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 700px) {
+    .responsive-p {
+      font-size: 1.2em !important;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 699.98px) {
+    .responsive-p {
+      font-size: 1em !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .featurette-image {
+        display: none;
+    }
+  }
 /* SeP */
 
 .featurette-heading {
     font-family: Neutra DTitling;
+    font-size: 4vw !important;
     color: rgb(39, 67, 148);
 }
 
 .lead {
     font-family: Overpass;
+    font-size: 1.2em;
 }
 
 .ph-img-left {
